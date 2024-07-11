@@ -25,7 +25,7 @@ const Home: React.FC = () => {
       </div>
 
       <div className="mt-4 lg:mt-0 lg:ml-16">
-        <div className="bg-gradient-to-r from-custom-purple to-custom-yellow rounded-xl p-4 lg:p-8 shadow-md">
+        <div className="bg-gradient-to-r from-gradient-purple to-gradient-orange rounded-xl p-4 lg:p-8 shadow-md">
           <h2 className="text-xl lg:text-2xl text-center lg:text-left text-gray-800 mb-4">Nossos Serviços:</h2>
           <ul className="space-y-4">
             {services.map((service) => (
