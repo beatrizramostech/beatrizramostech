@@ -12,6 +12,9 @@ module.exports = {
         'gradient-orange': '#FFD788',
         // Adicione mais cores conforme necessário
       },
+      spacing: {
+        '128': '32rem',
+      }
     },
   },
   plugins: [],
