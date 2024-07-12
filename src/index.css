@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   margin: 0;
   padding: 0;
   width: 100svw;
   height: 100svh;
+  background-color: #5e16ea;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,12 +20,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   margin: 0;
   padding: 0;
 }
-
 
 /* styles.css */
 .list-green-disc {

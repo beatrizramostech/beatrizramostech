@@ -1,6 +1,8 @@
 import { createBrowserRouter, RouteObject } from 'react-router-dom';
+import { Router as RemixRouter } from '@remix-run/router';  // Importando o tipo correto
 import Home from '../pages/Home';
-import Container from '../components/Container'; // Importe o Container
+import About from '../pages/About';
+import Container from '../components/Container';
 
 const routes: RouteObject[] = [
   {
@@ -10,10 +12,25 @@ const routes: RouteObject[] = [
         <Home />
       </Container>
     ),
-  }
-  // Adicione outras rotas conforme necessário
+  },
+  {
+    path: '/services',
+    element: (
+      <Container>
+        <></>
+      </Container>
+    ),
+  },
+  {
+    path: '/about',
+    element: (
+      <Container>
+        <About />
+      </Container>
+    ),
+  },
 ];
 
-const router = createBrowserRouter(routes);
+const router: RemixRouter = createBrowserRouter(routes);
 
 export default router;

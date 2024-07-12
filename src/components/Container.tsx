@@ -34,7 +34,7 @@ const Container: React.FC<ContainerProps> = ({ children }) => {
       exit="out"
       variants={pageVariants}
       transition={pageTransition}
-      className="min-h-screen flex items-center justify-center bg-background-color"
+      className="min-h-screen flex flex-col items-center justify-center bg-background-color"
     >
       {children}
     </motion.div>
