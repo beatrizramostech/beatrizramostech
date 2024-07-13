@@ -1,4 +1,3 @@
-import React from 'react';
 import { useLocation, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Home from '../pages/Home';
