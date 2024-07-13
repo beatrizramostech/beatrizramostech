@@ -10,7 +10,7 @@ module.exports = {
         'background-color': '#5e16ea',
         'gradient-purple': '#9C80FF',
         'gradient-orange': '#FFD788',
-        // Adicione mais cores conforme necessário
+        'orange-focus': '#FF9F15',
       },
       spacing: {
         '128': '32rem',

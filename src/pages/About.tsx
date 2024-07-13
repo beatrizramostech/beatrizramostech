@@ -5,11 +5,13 @@ const About: React.FC = () => {
   return (
     <>
     <Header/>
-      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-around min-h-lvh min-w-full p-4">
-        <div className="flex flex-col items-center mt-8 lg:mt-0 lg:w-1/2 p-8">
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-around min-h-vh min-w-full p-4">
+        <div className="flex flex-col items-center lg:w-1/2 p-8">
           <h2 className="text-xl lg:text-2xl text-center lg:text-left text-white mb-4">
             Nossos Serviços:
           </h2>
+          <div className="mt-8 flex flex-col text-white gap-4">
+
           <p className="text-white text-justify">
             A Beatriz Ramos Tech é uma empresa de tecnologia que surgiu em 2023 ao notar
             a necessidade de pessoas com soluções tecnológicas, manutenções
@@ -22,6 +24,8 @@ const About: React.FC = () => {
             Gerenciamento de Mídias Socias, estratégias de Marketing Digital e
             desenvolvimento de aplicações.
           </p>
+          <p className="mt-4 text-xs text-white">Beatriz Ramos</p>
+          </div>
         </div>
         <div className="flex flex-col items-center lg:w-1/2 p-8">
           <h2 className="text-xl lg:text-2xl text-center lg:text-left text-white mb-4">
