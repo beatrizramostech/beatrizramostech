@@ -6,7 +6,7 @@ const About: React.FC = () => {
     <>
     <Header/>
       <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-around min-h-lvh min-w-full p-4">
-        <div className="flex flex-col items-center w-1/2 p-8">
+        <div className="flex flex-col items-center mt-8 lg:mt-0 lg:w-1/2 p-8">
           <h2 className="text-xl lg:text-2xl text-center lg:text-left text-white mb-4">
             Nossos Serviços:
           </h2>
@@ -23,7 +23,7 @@ const About: React.FC = () => {
             desenvolvimento de aplicações.
           </p>
         </div>
-        <div className="flex flex-col items-center w-1/2 p-8">
+        <div className="flex flex-col items-center lg:w-1/2 p-8">
           <h2 className="text-xl lg:text-2xl text-center lg:text-left text-white mb-4">
             Nossos Números:
           </h2>
