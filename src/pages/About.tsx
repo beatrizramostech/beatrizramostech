@@ -4,14 +4,14 @@ import Header from "../components/Header";
 const About: React.FC = () => {
   return (
     <>
-      <Header />
+    <Header/>
       <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-around min-h-lvh min-w-full p-4">
         <div className="flex flex-col items-center w-1/2 p-8">
           <h2 className="text-xl lg:text-2xl text-center lg:text-left text-white mb-4">
             Nossos Serviços:
           </h2>
           <p className="text-white text-justify">
-            A Beatriz Ramos Tech é uma empresa de tecnologia que surgiu ao notar
+            A Beatriz Ramos Tech é uma empresa de tecnologia que surgiu em 2023 ao notar
             a necessidade de pessoas com soluções tecnológicas, manutenções
             corretivas e preventivas de computadores e notebooks, atualizações e
             restaurações de sistemas.
@@ -27,7 +27,7 @@ const About: React.FC = () => {
           <h2 className="text-xl lg:text-2xl text-center lg:text-left text-white mb-4">
             Nossos Números:
           </h2>
-          <div className="mt-8 grid grid-cols-2 gap-4">
+          <div className="mt-8 grid grid-cols-2 place-content-center text-center text-white gap-4">
           <div className="p-4">
             <p className="text-5xl font-bold">110%</p>
             <p className="mt-2">+ engajamento na mídias*</p>
@@ -45,7 +45,7 @@ const About: React.FC = () => {
             <p className="mt-2">+ conversões em vendas*</p>
           </div>
         </div>
-        <p className="mt-4 text-xs">*Média retirada de um período de 30 dias</p>
+        <p className="mt-4 text-xs text-white">*Média retirada de um período de 30 dias</p>
         </div>
       </div>
     </>

@@ -20,7 +20,7 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <Header />
+    <Header/>
       <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-around min-h-lvh min-w-full p-4">
         <div className="flex flex-col items-center lg:items-start">
           <img
