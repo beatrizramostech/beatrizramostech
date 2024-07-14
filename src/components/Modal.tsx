@@ -3,7 +3,7 @@ import { XCircle } from "@phosphor-icons/react";
 const Modal: React.FC<{
   isOpen: boolean;
   onClose: () => void;
-  content: { title: string; description: string[] };
+  content: { title: string; description: string[] | string };
 }> = ({ isOpen, onClose, content }) => {
   if (!isOpen) return null;
 
@@ -19,11 +19,17 @@ const Modal: React.FC<{
             <XCircle size={32} />
           </button>
         </div>
-        <ul className="list-green-disc pl-5 space-y-2">
-          {content.description.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
+        {Array.isArray(content.description) ? (
+          <ul className="list-green-disc pl-5 space-y-2">
+            {content.description.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        ) : (
+          <p className="">
+            {content.description}
+          </p>
+        )}
       </div>
     </div>
   );
