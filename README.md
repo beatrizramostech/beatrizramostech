@@ -27,24 +27,38 @@ Este repositório é dedicado ao desenvolvimento do site da minha empresa, Beatr
 
 - **Responsividade**: O site será completamente responsivo, garantindo uma ótima experiência em dispositivos móveis, tablets e desktops.
 - **Acessibilidade**: Implementação de práticas e padrões de acessibilidade para tornar o site utilizável por todos.
+- **Internacionalidade**: Implementação de tradução para inglês, espanhol, francês e mandarim.
 
 ## Estrutura do Projeto
 
 ```plaintext
 beatriz-ramos-tech/
 ├── public/
+│   ├── locales/
 ├── src/
 │   ├── assets/
 │   ├── components/
+│   ├── hooks/
 │   ├── pages/
 │   ├── routes/
 │   ├── App.tsx
-│   └── main.tsx
+│   ├── global.d.ts
+│   ├── i18n.ts
+│   ├── index.css
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── .env.example
+├── .eslintrc.cjs
 ├── .gitignore
 ├── index.html
 ├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.ts
 ├── README.md
+├── tailwind.config.ts
+├── tsconfig.app.json
 ├── tsconfig.json
+├── tsconfig.node.json
 └── vite.config.ts
 ```
 
