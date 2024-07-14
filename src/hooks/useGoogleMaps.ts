@@ -7,7 +7,7 @@ const useGoogleMaps = (apiKey: string) => {
       script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}`;
       script.async = true;
       script.defer = true;
-      document.head.appendChild(script);
+      document.body.appendChild(script);
 
       script.onload = () => {
         if (window.google) {
