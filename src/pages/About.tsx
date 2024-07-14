@@ -32,19 +32,19 @@ const About: React.FC = () => {
             Nossos Números:
           </h2>
           <div className="mt-8 grid grid-cols-2 place-content-center text-center text-white gap-4">
-          <div className="p-4">
+          <div className="py-4">
             <p className="text-5xl font-bold">110%</p>
             <p className="mt-2">+ engajamento na mídias*</p>
           </div>
-          <div className="p-4">
+          <div className="py-4">
             <p className="text-5xl font-bold">68.5%</p>
             <p className="mt-2">+ contas alcançadas*</p>
           </div>
-          <div className="p-4">
+          <div className="py-4">
             <p className="text-5xl font-bold">23.7%</p>
             <p className="mt-2">+ seguidores*</p>
           </div>
-          <div className="p-4">
+          <div className="py-4">
             <p className="text-5xl font-bold">11.9%</p>
             <p className="mt-2">+ conversões em vendas*</p>
           </div>
