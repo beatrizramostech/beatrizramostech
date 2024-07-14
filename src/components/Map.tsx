@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import useGoogleMaps from "../hooks/useGoogleMaps";
 
 const Map: React.FC = () => {
-  const apiKey = import.meta.env.VITE_GOOGLE_KEY; // Substitua pela sua chave da API
+  const apiKey = import.meta.env.VITE_GOOGLE_KEY;
 
   useGoogleMaps(apiKey);
 
