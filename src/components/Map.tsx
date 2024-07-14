@@ -1,32 +1,24 @@
-import React, { useEffect } from "react";
-import useGoogleMaps from "../hooks/useGoogleMaps";
+import React, { useEffect } from 'react';
+
+const loadGoogleMapsScript = (apiKey: string) => {
+  const script = document.createElement('script');
+  script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}`;
+  script.async = true;
+  script.defer = true;
+  document.body.appendChild(script);
+};
 
 const Map: React.FC = () => {
-  const apiKey = import.meta.env.VITE_GOOGLE_KEY;
-
-  useGoogleMaps(apiKey);
-
   useEffect(() => {
-    const initMap = () => {
-      if (window.google) {
-        const location = { lat: -20.131943, lng: -40.188682 };
-        const map = new window.google.maps.Map(
-          document.getElementById("map") as HTMLElement,
-          {
-            center: location,
-            zoom: 15,
-          }
-        );
-        new window.google.maps.Marker({
-          position: location,
-          map: map,
-        });
-      }
-    };
-    initMap();
+    const apiKey = import.meta.env.VITE_GOOGLE_KEY;
+    if (apiKey) {
+      loadGoogleMapsScript(apiKey);
+    } else {
+      console.error('Google Maps API key is not defined');
+    }
   }, []);
 
-  return <div id="map" style={{ height: "400px", width: "100%" }}></div>;
+  return <div id="map" style={{ width: '100%', height: '400px' }}></div>;
 };
 
 export default Map;
