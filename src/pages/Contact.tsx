@@ -5,8 +5,8 @@ import {
   WhatsappLogo,
 } from "@phosphor-icons/react";
 import Header from "../components/Header";
-import Map from "../components/Map";
 import ContactForm from "../components/ContactForm";
+import GoogleMap from "../components/GoogleMap";
 
 const Contact: React.FC = () => {
   return (
@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
         </div>
         <div className="flex flex-col items-center lg:w-1/2 px-4">
           <p className="mb-4 text-white">Nos encontre no endereço abaixo:</p>
-          <Map />
+          <GoogleMap />
           <div className="w-full flex flex-row items-center justify-start gap-2 mt-2">
             <MapPinSimpleArea size={32} color="white" />
             <div className="flex flex-col lg:flex-row gap-1">
