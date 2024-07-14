@@ -56,7 +56,6 @@ const ContactForm: React.FC = () => {
         templateParams,
         import.meta.env.VITE_EMAILJS_KEY
       );
-      console.log(templateParams);
       setContactNumber((previous) => previous + 1);
       setModalMessage({
         title: "Sucesso!",
