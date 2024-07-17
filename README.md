@@ -38,9 +38,9 @@ beatriz-ramos-tech/
 ├── src/
 │   ├── assets/
 │   ├── components/
-│   ├── hooks/
 │   ├── pages/
 │   ├── routes/
+│   ├── services/
 │   ├── App.tsx
 │   ├── global.d.ts
 │   ├── i18n.ts
