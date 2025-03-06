@@ -4,13 +4,11 @@ Bem-vindo ao repositório oficial da Beatriz Ramos Tech!
 
 ## Sobre Mim
 
-Sou Beatriz Ramos, uma desenvolvedora web e de aplicativos, especializada em criar soluções digitais para empresas e indivíduos. Além do desenvolvimento, ofereço serviços de gerenciamento de redes sociais, estratégia de marketing digital, e montagem e manutenção de computadores.
+Sou Beatriz Ramos, uma desenvolvedora web e de aplicativos, especializada em criar soluções digitais para empresas e indivíduos. Além do desenvolvimento, ofereço o serviço de montagem e manutenção de computadores.
 
 ## Serviços Oferecidos
 
 - **Desenvolvimento de Aplicações Web e Aplicativos**: Criação de websites e aplicativos personalizados usando as mais recentes tecnologias.
-- **Gerenciamento de Redes Sociais**: Planejamento e execução de estratégias eficazes para aumentar a presença online.
-- **Estratégia de Marketing Digital**: Desenvolvimento de campanhas de marketing digital para promover negócios e aumentar o engajamento.
 - **Montagem e Manutenção de Computadores**: Serviços técnicos para garantir que seus dispositivos estejam funcionando perfeitamente.
 
 ## Sobre Este Repositório
