@@ -97,3 +97,9 @@ Agradeço sua visita ao repositório da Beatriz Ramos Tech. Sinta-se à vontade 
 
 Beatriz Ramos Tech
 Conectando você com o futuro, agora!
+
+## Stats
+
+[![beatrizramostech](https://github-readme-stats.vercel.app/api?username=beatrizramostech&show_icons=true&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
+[![beatrizramostech](https://github-readme-stats.vercel.app/api/top-langs/?username=beatrizramostech&hide=html&layout=compact&theme=onedark)](https://github.com/anuraghazra/github-readme-stats)
+
